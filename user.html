@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title> |bhushancode</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h2>Robto</h2>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            
+        </div>
+
+        <nav>
+            <ul>
+                <li><a class="active" href="Home.html">Home</a></li>
+                <li><a href="Job.html">Job</a></li>
+                <li><a href="Alert.html"><i class="fa-solid fa-bell"></i></a></li>
+                <li><a class="login" href="Login">Log In</a></li>
+                <!--<li><a href="user.html"><i class="fa-solid fa-user"></i></a></li>--->
+            </ul>
+
+        </nav>
+    </header>
+
+
+
+<div class="contact-form">
+    <label for="first-name">
+        <i class="fa-solid fa-arrow-left"></i>
+    </label>
+    <h2>Contact Information</h2>
+    <form>
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" name="first-name" value="zeena" required placeholder="zeena">
+
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" name="last-name" value="Jalil" placeholder="Jalil">
+
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" value="+91 1297498349" placeholder="">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" value="zeenajalli@gmail.com" required>
+        <button type="button" onclick="editContact()">EDIT</button>
+        
+        
+
+        <label for="location">Location</label>
+        <span class="Local">This helps match you with nearby job</span>
+        <input type="text" id="location" name="location">
+
+        <label for="country">Country:</label>
+        <select id="text" name="country" style="width:685px"> 
+            <option value="india">India</option>  
+            <option value="pakistan">Pakistan</option>  
+            <option value="africa">Africa</option>  
+            <option value="china">China</option>  
+            <option value="other">Other</option> 
+        </select>
+
+
+        <label for="street-address">Street Address</label>
+        <span class="Local">Visible only to you </span>
+        <input type="text" id="street-address" name="street-address">
+
+        <label for="city-state-pincode">City, State</label>
+        <input type="text" id="city-state-pincode" name="city-state-pincode">
+
+        <label for="city-state-pincode">Pin Code</label>
+        <input type="text" id="city-state-pincode" name="city-state-pincode">
+
+        <div class="buttons">
+            <button type="submit">SAVE</button>
+            <button type="button" onclick="cancelForm()">Cancel</button>
+        </div>
+    </form>
+</div>
+
+        <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,1172 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:#ccc;
+    background-size: cover;
+    
+    
+}
+
+header {
+   
+    background-color: #3e3c3c;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 500px;
+    width: 200px; 
+    height: 10px;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 25px;
+}
+
+nav ul .login {
+    padding: 10px;
+    border: 1px solid #3153c4;
+    border-radius: 5px;
+   background-color: #3153c4;
+}
+
+
+nav ul li {
+    margin-right: 40px;
+}
+
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+
+    
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.add-icon i {
+    color: #fff;
+    font-size: 20px; /* Adjust the font size as needed */
+    margin-left: 10px; /* Adjust the spacing as needed */
+}
+.add-icon:hover i {
+    color: #f4f3ec; /* Change color on hover as needed */
+}
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+
+
+/** Home */
+
+#hero {
+    color:#ffffff;
+    text-indent: 40px;
+    letter-spacing: 2px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding:  280px;
+    padding-left: 5px;
+    
+}
+#hero h1 {
+    font-size:2.2rem;
+    
+}
+
+#hero h2 {
+    width: 30%;
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 25px;
+    color: black;
+    background-color: white;
+    animation: mymove 5s infinite;
+    
+}
+
+#hero h3 {
+   
+    width: 10%;
+    height: 10%; /* Set height to match width for perfect circle */
+    border-radius: 50%; /* This makes it a perfect circle */
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 30px;
+}
+
+#hero p {
+    text-indent: 50px;
+    font-size:0.7rem;
+    border-radius: 25px;
+}
+
+
+#feature {
+    display: flex;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: absolute;
+    top: -400px;
+    margin-inline-start: -25rem;
+   
+    z-index: -1;
+    
+   
+    
+}
+
+.fe-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+
+.fe-box1 {
+    min-width: 50px; 
+    min-height: 50px;
+    margin-top: -50rem;
+    margin-left: 58rem;
+
+}
+
+
+.fe-box img {
+    
+    width: 1728px;
+    height: 1100px; 
+    
+    
+}
+
+/**SEARCH */
+
+
+.form-container {
+        border: 1px solid rgb(97, 96, 96);
+        border-bottom: #3153c4;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -18rem;
+        margin-left: 8rem;
+        width: 800px;
+        height: 200px;    
+   
+}
+
+.form-container h2 {
+    position: absolute;
+    right: 250px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(97, 96, 96);
+    color: white;
+    background-color: #3e3c3c;
+    text-align: center;  
+    
+}
+
+.form-container h2 i {
+    position: absolute;
+    top: 110px;
+    right: 15;
+    font-size: 45px;
+}
+
+.form-group {
+    
+    margin-bottom: 250px;
+    margin-top: 70%;
+    margin-bottom: 50%;
+    margin-right: -5%;
+    width: 230px;
+    height: 300px;
+    
+}
+
+.form-group-1 {
+    position: absolute;
+    margin-right: 30%;
+    
+}
+
+.form-group-2 {
+    position: absolute;
+    margin-bottom: 250px;
+    margin-top: 50%;
+    margin-bottom: 50%;
+    margin-left: 30%;
+}
+
+
+/** 
+    *RECENT JOBS
+*/
+
+
+.recent-1 {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.recent-1  ul{
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+.recent-1 ul li {
+
+    color: black;
+    text-decoration: none;  
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+
+
+
+
+.recent-2 {
+    border: 1px solid rgb(97, 96, 96);
+    background: #fff;
+    padding: 35px;
+    border-radius: 5px 5px;
+    width: 450px;
+    height: 150px;
+    margin-left: 8rem;
+    margin-top: 8px;
+    
+
+}
+
+.recent-2 img{
+    margin-right: 2px;
+    margin-left: -2rem;
+       
+}
+
+.recent-2 h3 {
+    margin-top: -6rem;
+    margin-left: 4rem;
+}
+
+.recent-2 P {
+
+    margin-left: 4rem;
+
+}
+.freelance {
+    margin-left: 32rem;
+    margin-top: -10rem;
+    border-radius: 5px 5px;
+}
+.freelance .free {
+    background: #12a1d4;
+    border-radius: 5px 5px;
+}
+.freelance .apply {
+    background: #4263cf;
+    margin-left: 2rem;
+    border-radius: 5px 5px;
+    
+   
+}
+
+.freelance p {
+    margin-top: 4.1rem;
+    margin-left: -22rem;
+    width: 457PX;
+    height: 33px;
+    background: #86bcd4;
+}
+
+/**
+    * offer best
+*/
+
+.Offer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+  }
+  
+  
+  .offer-best img {
+    width: 100%; /* Adjust image width */
+    height: auto;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+   
+  }
+  
+  .offer-best-1 {
+    padding: 20px;
+    border: 1px solid rgb(97, 96, 96);
+    color: #fff;
+    width: 300px;
+    height: 100px;
+    
+  }
+  
+  .Job-role {
+    position: absolute;
+    margin-bottom: 20px;
+    right:  150px;
+    margin-top: 195px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+
+    
+  }
+
+  /** HIRING COMPANIES */
+
+.compny-1  h2{
+    text-decoration: underline dotted blue;
+    
+ }
+
+ .top {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 10px; /* Gap between items */
+
+    
+ }
+
+ .top-1 {
+    flex: 1; /* Each item takes equal space */
+    margin: 0 10px; /* Add margin between items */
+    width: 400px;
+    height: 400px;
+       
+}
+
+.top-1 {
+    display: flex; 
+    align-items: center;
+    border: 1px solid black; 
+    border-radius: 25px;
+    padding:  20px; 
+    margin-bottom: 20px;
+    margin-left: 120px;
+    justify-content: space-between; 
+    height: 200px;
+ }
+
+ .top-1 h5 {
+    
+        background-color: #4a0bdd;
+        color: #fff; /* Background color */
+        border: 1px solid #ccc; /* Border style */
+        padding: 5px; /* Padding to add space around the text */
+        margin: 0; /* Remove default margin */
+        margin-top: auto; /* Align the h5 tag to the bottom */
+}
+
+.top-1.apus {
+    background-color: #8dabdc; /* Set background color for Apus Ltd. */
+}
+
+.top-1.striple {
+    background-color: #ce7ed3; /* Set background color for Striple Ltd. */
+}
+
+.top-1.green-people {
+    background-color: #d175a9; /* Set background color for Green People. */
+}
+
+.top-1.cultural-inc {
+    background-color: #e177aa; /* Set background color for Cultural Inc. */
+}
+
+/**
+    Comapny summary
+*/
+.Member-1 {
+    position: relative; 
+}
+
+
+.Member-1 img {
+    filter: blur(6px);
+
+}
+
+.Member-1 .resume {
+    position: absolute; /* Position the text absolutely */
+    top: 80%; /* Align the text vertically */
+    left: 60%; /* Align the text horizontally */
+    transform: translate(-50%, -50%); /* Center the text */
+    color: white; /* Set text color */
+    text-align: center; /* Center align the text */
+    font-size: 24px; /* Adjust font size */
+}
+
+.resume {
+    display: flex;
+    justify-content: center;
+    color:black;
+}
+
+.resume h3 {
+    margin: 0 60px; /* Add spacing between the elements */
+    text-align: center; /* Center the text horizontally */
+    margin-top: -100px;
+    
+}
+
+
+
+/** 
+    Popular category
+*/
+
+
+.Popular-1 h2 {
+    margin-bottom: 5px;
+    text-align: center; /* Center-align the text */
+    text-decoration: underline ;
+
+   
+}
+
+
+.categorys {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+    justify-content: center; /* Horizontally center the items */
+    gap: 10px; /* Set the gap between items */
+    justify-items: center;
+   
+   
+    
+}
+
+.categorys-1 {
+    border-bottom: 4px solid #7a66b3;
+    border-top:1px solid #7b7979;
+    border-left: 1px solid #908e8e;
+    border-right: 1px solid #7d7a7a;
+    background-color: #f0f0f0;
+    padding: 25px;
+    margin: 50px; /* Add margin to create space between items */
+    margin-bottom: 5px;
+    margin-left: 45px;
+    justify-content: space-between; 
+    text-align: center;
+    width: 120px;
+    height: 100px;
+}
+
+.categorys-1 i {
+    font-size: 28px;
+    color: #12a1d4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+    
+}
+
+
+/** What */
+
+.pro {
+    display: flex;
+    justify-content: center; /* Center-align the content horizontally */
+    align-items: center;
+}
+
+.pro img {
+    margin: 0 4px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(20%);
+}
+
+.says-1 {
+    text-align: center;
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.says-1 h3 {
+    display: block;
+    color: rgb(91, 135, 182);
+    
+}
+.says-1 h3 span {
+    margin-left: -90rem;
+}
+
+.says-1 img {
+    border-radius: 50%; /* Make the image circular */
+}
+
+
+
+
+/**/
+
+.say {
+    
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black; /* Add border */
+    padding: 15px; /* Add padding for spacing */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    background-color: #fff;
+    width: 400px;
+    height: 150px;
+    
+}
+
+
+.say img {
+    display: block; /* Ensure the image is a block element */
+    margin-bottom: -4rem;
+    margin-left: 4rem;
+    margin-top: -2rem;
+    border-radius: 50%;  /* Add border radius for rounded corners */
+}
+
+.say h5 {
+    margin-top: 10px; /* Adjust margin as needed */
+}
+
+.say p {
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.say i {
+    color: darkorange;
+}
+
+.say h5  small{
+        color: #12a1d4;
+}
+
+
+/**say-2*/
+
+.say-2 {
+    
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black; /* Add border */
+    padding: 15px; /* Add padding for spacing */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    background-color: #fff;
+    width: 400px;
+    height: 150px;
+    margin-left: 45rem;
+    
+}
+
+
+.say-2 img {
+    display: block; /* Ensure the image is a block element */
+    margin-bottom: -4rem;
+    margin-left: 4rem;
+    margin-top: -2rem;
+    border-radius: 50%;  /* Add border radius for rounded corners */
+}
+
+.say-2 h5 {
+    margin-top: 10px; /* Adjust margin as needed */
+}
+
+.say-2 p {
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.say-2 i {
+    color: darkorange;
+}
+
+.say-2 h5  small{
+        color: #12a1d4;
+}
+
+
+/**
+
+*/
+.says {
+    position: relative;
+}
+
+.says-1 {
+    position: absolute;
+    top: 0; /* Align at the top of the relative parent (.says) */
+    left: 50%; /* Align at the horizontal center */
+    transform: translateX(-50%); /* Adjust for center alignment */
+    width: 80%; /* Set the width as needed */
+    text-align: center; /* Center-align the content */
+    color: black; /* Set font color to white */
+    padding: 20px; /* Add padding as needed */
+}
+
+
+
+.says-1 h3 {
+    margin-bottom: 120px;
+    margin-left: 25rem;
+}
+
+.says-1 img {
+    border-radius: 100%; /* Make the image circular */
+    margin-bottom: -50px; /* Adjust margin as needed */
+}
+
+
+/**
+    Job html
+*/
+.lihit h3 {
+    position: absolute;
+    top: 7rem;
+    font-size: 2.5rem;
+    left: 25px;
+}
+
+.lihit p {
+    position: absolute;
+    top: 11rem;
+    left: 25px;
+    font-size: 1.8rem;
+}
+
+.Browse-top .Browse-1 input[type="text"],
+.Browse-top .Browse-1 select {
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    top: 18rem;
+}
+
+#region {
+    position: absolute;
+    left: 455px;
+    border-radius: 15px;
+}
+
+#category {
+    position: absolute;
+    left: 755px;
+    border-radius: 15px;
+}
+
+.right {
+    position: absolute;
+    top: 20rem;
+    font-size: 0.5rem;
+    color: #000;
+    
+}
+
+  .right input[type="checkbox"] {
+    margin-right: 25px; 
+  }
+
+.trending {
+    position: absolute;
+    top: 25rem;
+    left: 300px;
+}
+
+
+  
+/**
+    day
+*/
+
+.Types h4 {
+    position: absolute;
+    font-size: 1.5rem;
+    left: 8rem;
+    border: 1px solid #3e3c3c;
+    background-color: #74c9f9;
+    padding: 20px;
+    margin: 0px 45px;
+    border-radius: 15px;
+    color: white;
+    
+}
+
+.day {
+    position: absolute;
+    bottom:-1rem;
+    left: 450px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.vikss {
+    position: absolute;
+    background-color: white;
+    border-radius: 35px;
+    left: 10rem;
+    font-size: 0.5rem;
+    top: 45rem;
+    
+}
+
+.vikss label {
+    color: #000;
+}
+
+.Senior-1 {
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    display:grid;
+    top: 42rem;
+    left: 15rem;
+}
+
+.Senior-one {
+    justify-content: center;
+    text-align: center;
+    position:relative;
+}
+
+
+.Senior-two {
+    justify-content: center;
+    border: 1px solid #3e3c3c;
+    background-color: #fff;
+    margin-left: 22rem;
+    margin-top: -8rem;
+}
+
+
+/**
+    Login 
+*/
+
+/**.wel {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 4px solid white; 
+    padding: 20px; 
+    border-radius: 15px; 
+    background-color: #fff;
+    width: 400px;
+    height: 400px;
+    margin-left: 15rem;
+    margin-top: 5rem;
+}
+
+input[type=text], input[type=password] {
+    width: 110%;
+    padding: 10px 30px;
+    margin: 10px 35px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 35px;
+    border: none;
+    cursor: pointer;
+    width: 110%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+
+**/
+
+.Unic-1 {
+    position: absolute;
+    left: 300px;
+    
+}
+
+.Unic-1 img {
+    position: absolute;
+    left: 400px;
+}
+
+
+.main{
+	width: 350px;
+	height: 500px;
+	background: red;
+	overflow: hidden;
+	background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px #000;
+}
+#chk{
+	display: none;
+}
+.signup{
+	position: relative;
+	width:100%;
+	height: 100%;
+}
+label{
+	color: #fff;
+	font-size: 2.3em;
+	justify-content: center;
+	display: flex;
+	margin: 60px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s ease-in-out;
+}
+input{
+	width: 60%;
+	height: 20px;
+	background: #e0dede;
+	justify-content: center;
+	display: flex;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+button{
+	width: 60%;
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: #573b8a;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+button:hover{
+	background: #6d44b8;
+}
+
+
+.login{
+	height: 460px;
+	background: #eee;
+	border-radius: 60% / 10%;
+	transform: translateY(-180px);
+	transition: .8s ease-in-out;
+}
+.login label{
+	color: #573b8a;
+	transform: scale(.6);
+}
+
+#chk:checked ~ .login{
+	transform: translateY(-500px);
+}
+#chk:checked ~ .login label{
+	transform: scale(1);	
+}
+#chk:checked ~ .signup label{
+	transform: scale(.6);
+}
+
+
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+
+  .col {
+    float: left;
+    width: 60%;
+    margin: 8px 35px;
+    padding: 14px 20px;
+    margin-top: 6px;
+    
+  }
+
+  .col p {
+    font-size: 0.8rem;
+    margin-left: 3rem;
+  }
+
+  input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 35px;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+  .fb {
+    background-color: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background-color: #55ACEE;
+    color: white;
+  }
+  
+  .google {
+    background-color: #dd4b39;
+    color: white;
+  }
+  
+
+  .log-1 img {
+    position: absolute;
+    left: 45rem;
+    top: 5rem;
+    width: 500px; 
+    height: 600px;
+
+  }
+
+
+.login-1 h2 {
+    position: absolute;
+    font-size: 3rem;
+    border: 1px solid #3e3c3c;
+    border-radius: 50%;
+    padding: 40px;
+    background-color: #3e3c3c;
+    color: white;
+    top: 30%;
+}
+.login-1 h3 {
+    position: absolute;
+    left: 165px;
+    top: 250px;
+    font-size: 3rem;
+}
+
+
+.login-2 {
+    position: absolute;
+    font-size: 1.5rem;
+    left: 300px;
+    top: 70%;
+}
+.login-2 h5 {
+    position: absolute;
+    left: 650px;
+    bottom: 10px;
+    color: #3153c4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+    FOOTER
+*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+    color: #fff;
+    background-color: #3e3c3c;
+}
+
+footer div {
+    text-align: center;
+    margin: 0 10px; /* Adjust margin as needed */
+    flex: 1 1 auto; /* Allow the divs to grow and shrink equally */
+}
+
+.terms h5 {
+    margin-left: 45rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+Contact
+*/
+.contact-form {
+    width: 50%;
+    margin: 0 auto;
+    
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.Local{
+    font-size: small;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"] {
+    width: calc(100% - 10px);
+    padding: 10px;
+    margin-bottom: 10px;
+    
+    border-radius: 5px;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form input[type="tel"]:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+.contact-form button {
+    background-color: #4263cf;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+.contact-form .buttons {
+    margin-top: 20px;
+}
